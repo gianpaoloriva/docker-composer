@@ -9,6 +9,10 @@ services:
       args:
         buildno: 1 # Verificare arg_dockerfile
         gitcommithash: cdc3b19
+#Docker File
+# ARG NODE_ENV=production
+# ENV NODE_ENV $NODE_ENV
+
 
 # Labels
 build:
