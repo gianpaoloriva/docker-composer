@@ -1,1 +1,7 @@
 ## Write app on port 5000
+version: '3' 
+services: 
+  web: 
+    build: app 
+    ports: 
+      - '5000:5000'

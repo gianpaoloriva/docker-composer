@@ -1,2 +1,12 @@
 ## Write backend services db and frontend
 # 2 network secret and 2 volume
+
+
+# Use this command for backend
+# args:
+#     - NODE_ENV=development
+# command: npm run start-watch
+
+# Use this command for mysql db
+# image: mysql:8.0.19
+# command: '--default-authentication-plugin=mysql_native_password'
